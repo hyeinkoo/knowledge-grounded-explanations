@@ -1,0 +1,15 @@
+tqdm
+PyYAML
+
+nltk
+contractions
+inflect
+beautifulsoup4
+
+torch
+pytorch-lightning
+transformers
+# tensorboard==2.4.1
+
+captum
+# sty

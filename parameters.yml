@@ -1,0 +1,36 @@
+# KG data
+conceptnet_path: "data/conceptnet/"
+conceptnet_file: "conceptnet-assertions-5.7.0.csv"
+conceptnet_triples_file: "conceptnet_triples.csv"
+conceptnet_multi_words_file: "conceptnet_multi_words.json"
+multi_words_file: "mwe.txt"
+
+# AG News
+agnews_dataset_path: "data/agnews/"
+agnews_train_file: "train.csv"
+agnews_test_file: "test.csv"
+agnews_processed_train_file: "agnews_train.csv"
+agnews_processed_test_file: "agnews_test.csv"
+agnews_num_classes: 4
+
+# KG config
+knowledge_graph: 'conceptnet'
+n_hop: 2
+max_entities: 2
+predicate: True
+split_multi_words: True
+max_num_tokens: 512
+excluded_predicates: ["antonym", "distinct_from", "externel_u_r_l"]
+nn_pos_tag: ["NN", "NNS", "NNP", "NNPS"]
+cls_token: "[CLS]"
+sep_token: "[SEP]"
+pad_token: "[PAD]"
+
+# model config
+use_visible_matrix: False
+learning_rate: 0.00001
+lr_update: 2  # Number of epochs to update the learning rate
+fine_tune: False # True if you want to train the entire network
+
+# bert config
+

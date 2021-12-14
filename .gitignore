@@ -1,0 +1,20 @@
+# IDE
+*.idea/
+*__pycache__
+*.ipynb_checkpoints/
+*.DS_Store
+
+# Virtual env
+#*venv/
+
+# data
+*.pkl
+data/
+checkpoints/
+logs/
+lightning_logs/
+
+# Code
+testnb/
+mis/
+miscellaneous.py
